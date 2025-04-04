@@ -1,0 +1,130 @@
+:root {
+    --main-color: #ec1e27;
+}
+
+.page {
+    position: relative;
+    background: #fff;
+    /* border: 1px solid #f4f4f4; */
+    padding: 20px;
+    margin: 10px 25px;
+}
+
+.red {
+    color: #ee1c25;
+}
+
+.header {
+    font-weight: 550;
+    font-size: 45;
+}
+
+.card-header-red {
+    padding: 8px;
+    background: #ee1c25;
+    color: white;
+    padding-bottom: 1px;
+}
+
+.card-header-black {
+    padding: 8px;
+    background: #343a40;
+    color: white;
+    padding-bottom: 1px;
+}
+
+.page-header {
+    margin: 10px 0 20px 0;
+    font-size: 22px;
+    color: var(--main-color);
+}
+
+/* 
+.table-field-value tr:first-child,
+.table-field-value-1 tr:first-child {
+    background-color: var(--main-color);
+} */
+
+.table-field-value thead>tr:first-child,
+.table-field-value-1 thead>tr:first-child {
+    background-color: var(--main-color);
+    color: #ffffff;
+    margin: 0 !important
+}
+
+.table-field-value thead h5,
+.table-field-value-1 thead h5 {
+    color: #ffffff;
+    margin: 0 !important
+}
+
+/* 
+.table-field-value thead > tr > h5,
+.table-field-value-1  thead > tr > h5 {
+
+    color: #ffffff;
+    margin: 0 !important;
+} */
+/*
+.table-field-value td {
+    border: 1px solid #fff !important;
+}
+*/
+.table-field-value td:nth-child(odd),
+.table-field-value-1 .label, .label {
+    width: 200px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.table-field-value td:nth-child(even),
+.table-field-value-1 .value {
+    /*
+  background-color: #e7e7e8;
+  */
+}
+
+/*
+.table-bordered td{
+    border-color: #ffffff;
+}
+*/
+.page-break {
+    page-break-after: always;
+}
+
+.sigPad {
+    margin: 0;
+    padding: 0;
+    width: 350px;
+}
+
+.sigNav {
+    width: 350px;
+    max-width: 100%;
+}
+
+.sigWrapper {
+    clear: both;
+    width: 352px;
+    height: 182px;
+    /*margin-left: 15px;*/
+    border-radius: 8px;
+    border: 1px solid #dee2e6 !important;
+    min-height: 200px !important;
+
+}
+
+.pad {
+    border-radius: 7px;
+
+}
+
+@media print {
+    .page {
+        border-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+}

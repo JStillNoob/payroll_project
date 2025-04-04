@@ -1,0 +1,90 @@
+:root{
+    --main-color:#c8c9cb; /*#ec1e27;*/
+}
+
+:root{
+    --secondary-color:#71A541; /*#ec1e27;*/
+}
+
+* {
+ font-size: 100%;
+ /*font-family: Times New Roman;*/
+}
+
+
+.btn-primary {
+    background-color: var(--secondary-color) !important
+}
+
+.lbl-primary {
+    color: var(--secondary-color) !important;
+}
+
+body{
+      background-image: url("../..//uploads/images/BRK_DatabaseBackground.jpg");
+             background-color: #cccccc;
+             background-size: cover;
+}
+
+.box-border{
+    border: 10px solid #295850;
+    border-radius: 20px;
+}
+
+
+.image-background{
+             background-image: url("../..//uploads/images/BRK_DatabaseBackground.jpg");
+             background-color: #cccccc;
+             background-size: cover;
+            
+}
+
+.content-wrapper{
+    background:transparent !important;
+}
+
+.page-header-text{
+    font-weight: 900;color: white;font-family: system-ui;font-size: 25px;
+}
+
+.disabledbutton {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.navbar-red {
+    background-color: #095950 !important;
+    border:none !important;
+    /*box-shadow: 0 0 10px #9ecaed;*/
+}
+
+.navbar-nav .nav-item a {
+    color:#fff;
+}
+
+.sidebar-red-primary {
+    background-color: var(--main-color) !important;
+}
+
+.sidebar-red-primary a {
+    color: #596086 !important;
+}
+
+.bg-warning {
+    color: #fff !important;
+}
+
+.header-title {
+    background-color: var(--main-color);
+    color:#fff;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 1em;
+    display: block;
+    font-weight: bold;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+     background-color: var(--secondary-color) !important;
+     color:white !important;
+}
